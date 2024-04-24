@@ -24,6 +24,7 @@ body {
   background: #3c3e4e;
   width: 450px;
   border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .card__informations {
@@ -73,10 +74,41 @@ body {
 
 .name h1 {
   font-weight: 500;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 .name p {
   font-weight: 300;
   font-size: 14px;
+}
+
+.socials {
+  padding: 20px;
+}
+
+.social__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social__list li {
+  background: rgb(97, 97, 114);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.social__list li:hover {
+  background: rgb(84, 58, 131);
+}
+
+.social__list li i {
+  font-size: 1.25rem;
 }
